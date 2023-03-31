@@ -188,3 +188,51 @@ def greet_user():
         print(username)
 greet_user()
 ```
+
+### 输入格式
+
+###### 输入数据类型
+
+默认str
+
+整型int(input())
+
+输入数据格式
+
+input().split() #去除输入空格
+
+### 输出格式
+
+##### 百分号输出：
+
+1.{:.0f}%'.format(100*42/50)
+
+2.{:.0%}'.format(42/50)
+
+### 符号
+
+##### 除法：
+
+/和//:5/2=2.5,5//2=2(向下取整)
+
+##### 引号：
+
+引号中间的内容会当作字符串打印，三引号输出是不会改变输入的格式
+
+![img](https://img-blog.csdnimg.cn/img_convert/661d6ee62cee6b28db45a72f2809da00.png)
+
+当字符串需要加入引号时，可采用单引号与双引号互相嵌套使用
+
+![img](https://img-blog.csdnimg.cn/img_convert/415930359741fb514196157ed6c62d5d.png)
+
+### 函数
+
+#### 日期函数（datetime）
+
+from datetime import *
+
+#### 数学函数（math）
+
+向上取整 ：math.ceil
+
+向下取整 ：//
